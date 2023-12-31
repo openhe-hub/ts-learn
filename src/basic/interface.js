@@ -9,7 +9,7 @@ var employee = {
     say: 'employee string'
 };
 // const fn: any = customer.say
-console.log(customer.say());
+console.log(customer.say()); // need conversion first
 console.log(employee.say);
 var drummer = {
     age: 10,
